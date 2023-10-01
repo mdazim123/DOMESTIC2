@@ -1,0 +1,440 @@
+*
+{box-sizing: border-box; padding: 0; margin: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+/* ...........1st divvv ...........*/
+.div1
+{
+    height: 8vh;
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+.div1h
+{
+    float: left;
+    font-size: 3em;
+    position: relative;
+    left: 6em;
+    color: blue ;
+}
+.div1h:hover
+{
+    color: rgb(31, 132, 221);
+}
+
+.div1button
+{
+    font-size: 1.2em;
+    font-weight:bold;
+    float: right;
+    position: relative;
+    right: 3.5em;
+    top: 1.1em;
+}
+a
+{
+    margin-left:3em;
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgb(31, 132, 221);
+}
+
+/*........... div22.... */
+
+.div2
+{
+    height: 90vh;
+    background:linear-gradient(to left, rgba(240, 215, 215, 0), rgba(5, 0, 0, 0.815)), url('Household-Tasks-HS-img-01.jpg') no-repeat scroll content-box;
+    background-size:cover;
+    position: relative;
+    top: 8vh;
+}
+
+.div2hp
+{
+    font-size: 2em;
+    position: relative;
+    top: 8em;
+    left: 8em;
+    width: 25em;
+}
+.div2h
+{
+    color: rgb(243, 247, 18);
+}
+.div2p
+{
+    color: aliceblue;
+}
+#div2btn
+{
+    font-size: .4em;
+    width: 12em;
+    height: 3.2em;
+    padding: .6em;
+    border-radius: 2em;
+    position: relative;
+    top: 1em;
+    background-color: rgb(238, 185, 13);
+}
+#div2btn:hover
+{
+    background-color: rgb(31, 132, 221);
+    color: white;
+}
+
+/* third divvv.................. */
+
+.div3
+{
+    height: 42vh;
+    background-color: rgb(31, 132, 221);
+    position: relative;
+    top: 8vh;
+}
+.div3phbtn
+{
+    position: relative;
+    font-size: 1.3em;
+    top: 1.5em;
+    color: white;
+    max-width: 60em;
+    margin: auto;
+    text-align: center;
+}
+.div3h
+{
+    text-align: center;
+}
+.div3p
+{
+    margin-top: 1em;
+}
+#div3btn
+{
+    margin-top: 2em;
+    height: 3em;
+    width:15em ;
+    border-radius: 2em;
+    border: none;
+}
+#div3btn:hover
+{
+    background-color: rgb(238, 185, 13);
+    color: white;
+}
+
+/* fourth divv....... */
+
+.div4
+{
+    height: 55vh;
+    position: relative;
+    top: 8vh;
+}
+.div4h
+{
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    top: 1.2em;
+}
+.divleftright
+{
+    width: 60em;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    top:6em;
+}
+.div4left
+{
+    float: left;
+    width: 25em;
+}
+
+.div4right
+{
+    float: right;
+    width: 25em;
+}
+
+.div4leftrightp
+{
+    position: relative;
+    top: 1em;
+}
+
+
+/* fifth divvv............. */
+.div5
+{
+    color: white;
+    background-color: rgb(31, 132, 221);
+    min-height: 60vh;
+    position: relative;
+    top: 8vh;
+}
+img
+{
+    float: left;
+    height: 60vh;
+}
+.div5hpbtn
+{
+    float: right;
+    width: 35em;
+    font-size: 1.2em;
+    position:relative ;
+    right: 7em;
+    top: 4em;
+}
+.div5h
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+#div5btn
+{
+    position: relative;
+    top: 2em;
+    width: 15em;
+    height: 3em;
+    border-radius: 2em;
+    border:none;
+}
+#div5btn:hover
+{
+    background-color: rgb(238, 185, 13);
+    color: white;
+}
+
+/* six divvv...... */
+.div6
+{
+    height: 52vh;
+    position: relative;
+    top: 8vh;
+    background-color: white;
+}
+.div6h
+{
+    text-align: center;
+    position: relative;
+    font-size: 3em;
+    top: 1.5em;
+}
+
+.div6leftrightaside
+{
+    margin-top:10em;
+    font-size: 1em;
+}
+
+.div6left
+{
+    float: left;
+    width: 30em;
+    clear: right;
+    position: relative;
+    left: 4em;
+    text-align: center;
+}
+.div6leftrightasideh
+{
+    position: relative;
+    top: .1em;
+}
+.div6leftrightasidep
+{
+    position: relative;
+    top: .8em; 
+}
+.div6right
+{
+    float: right;
+    width: 30em;
+    position: relative;
+    right: 4em;
+    text-align: center;
+}
+.div6aside
+{
+   float: right;
+    width: 30em;
+    position: relative;
+    right: 12em;
+    text-align: center;
+}
+/* i
+{
+    background-color: rgb(31, 132, 221);
+    width: 3em;
+    height: 3em;
+    border-radius: 2em;
+    position: relative;
+    bottom: .5em;
+} */
+
+/* seventh divvv.............. */
+.div7
+{
+    font-size: 1.2em;
+    height: 10em;
+    margin-top: 8vh;
+    background-color: rgb(31, 132, 221);
+    display: flex;
+}
+.div7h
+{
+    margin: auto;
+    width: fit-content;
+    position:relative;
+    left: 6em;
+    color: white;
+}
+#email
+{
+    height: 4em;
+    width: 40em;
+    margin: auto;
+    position:relative;
+    right: 10em;
+    padding: 2em;
+    border: none;
+}
+/* Eight divvv................... */
+.div8
+{
+    font-size: 1.2em;
+    height: 3em;
+    text-align: center;
+}
+
+.div8p
+{
+    margin-top: 1em;
+}
+#ftr
+
+{
+    color: gray;
+}
+
+
+
+/* .........responsib................. */
+
+@media (max-width:768px)
+{
+
+    .div1h
+    {
+        font-size: 1em;
+        top: 1em;
+    }
+    .div1button
+    {
+        font-size: .6em;
+        right: 25em;
+        top: 2em;
+    }
+    .div2hp
+    {
+        font-size: 1em;
+        width: 100%;
+    }
+    .div3phbtn
+    {
+        font-size: .9em;
+    }
+    .div4h
+    {
+        font-size: 1.5em;
+    }
+    .divleftright
+    {
+        flex-direction: column;
+        font-size: 1em;
+       margin: auto;
+    }
+    .div4left
+    {
+        margin: auto;
+        float: none;
+        width: 70%;
+    }
+    .div4right
+    {
+        margin: auto;
+        margin-top: 2em;
+        float: none;
+        width: 70%;
+    }
+    .div5
+    {
+        height: 110vh;
+    }
+    img
+    {
+        float: none;
+        width: 100%;
+    }
+    .div5hpbtn
+    {
+        margin: auto;
+        float: none;
+        font-size: .8em;
+        width: 70%;
+        right: 0;
+    }
+    .div5btn
+    {
+        color: brown;
+        top: none;
+        font-size: .3em;
+    }
+    .div6h
+    {
+        font-size: 1.5em;
+    }
+    .div6leftrightaside
+    {
+        font-size: .6em;
+    }
+    .div6left
+    {
+        width: 100%;
+    }
+
+    .div6right
+    {
+        width: 100%;
+    }
+    .div6aside
+    {
+        width: 100%;
+    }
+    .div7
+    {
+        font-size: .6em;
+    }
+    .div7h
+    {
+        left: 1em;
+    }
+    #email
+    {
+        width: 28em;
+        right: 0;
+    }
+    .div8
+    {
+        font-size: .8em;
+    }
+}
